@@ -75,3 +75,13 @@ while (num){
 
 alert(`Thank You ${userName} For Paying, Your score was ${score}. I Hope You Had Fun!`);
 
+// I had trouble doing question 7, I couldnt put all the array answers in the  for loop
+
+// let heroes = ['spider-man','batman','moon knight','dr.strange', 'green lantern','black panther'];
+
+// for(let i=0; i < 6; i ++){
+//   let ans = prompt('What is my Favorite Superhero?');
+//   if (ans === heroes){
+//     console.log('Correct');
+//   }
+// }
