@@ -54,26 +54,24 @@ if (qFive === 'yes' || qFive === 'y'){
   alert('That is Incorrect');
 }
 
-function agequiz(){
-  let num = 4;
-  while (num){
-    let myAge = parseFloat(prompt('How old am I?'));
-    if(myAge < 20){
-      alert('Thats too low');
-    } else if(myAge > 20){
-      alert('Thats to high');
-    } else if(myAge === 20){
-      alert('That is the right answer!');
-      score ++;
-      return num;
-    }
-    else {
-      alert('Please enter a valid answer');
-    }
-    num --;
+
+let num = 4;
+while (num){
+  let myAge = parseFloat(prompt('How old am I?'));
+  if(myAge < 20){
+    alert('Thats too low');
+  } else if(myAge > 20){
+    alert('Thats to high');
+  } else if(myAge === 20){
+    alert('That is the right answer!');
+    score ++;
+    break;
   }
+  else {
+    alert('Please enter a valid answer');
+  }
+  num --;
 }
-agequiz();
 
 alert(`Thank You ${userName} For Paying, Your score was ${score}. I Hope You Had Fun!`);
 
