@@ -94,20 +94,22 @@ function age(){
 }
 age();
 
-
-let heroes = ['spider-man','batman','moon knight','dr.strange', 'green lantern','black panther'];
-for(let i = 0; i < 6; i ++){
-  let ans = prompt('What is my Favorite Superhero?').toLowerCase();
-  for(let j = 0; j < heroes.length; j++){
-    if(ans === heroes[j]){
-      alert('You Got it Right, You know your Comics.');
-      score ++;
-      i = 5;
-      break;
+function myHeros(){
+  let heroes = ['spider-man','batman','moon knight','dr.strange', 'green lantern','black panther'];
+  for(let i = 0; i < 6; i ++){
+    let ans = prompt('What is my Favorite Superhero?').toLowerCase();
+    for(let j = 0; j < heroes.length; j++){
+      if(ans === heroes[j]){
+        alert('You Got it Right, You know your Comics.');
+        score ++;
+        i = 5;
+        break;
+      }
     }
   }
+  alert(`My Favorite Superheroes are ${heroes}. Try to See if You Can Guess Another One.`);
 }
-alert(`My Favorite Superheroes are ${heroes}. Try to See if You Can Guess Another One.`);
+myHeros();
 
 
 alert(`Thank You ${userName} For Playing, Your score was ${score} out of ${tScore}. I Hope You Had Fun!`);
