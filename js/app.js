@@ -71,6 +71,9 @@ while (num){
     alert('Please enter a valid answer');
   }
   num --;
+  if(num === 0){
+    alert('Sorry Your out of Attempts. I am 20 Years old');
+  }
 }
 
 alert(`Thank You ${userName} For Paying, Your score was ${score}. I Hope You Had Fun!`);
