@@ -4,6 +4,10 @@
 
 ### Author: Emmanuel Gonzales
 
+Driver: Dasha Burgos
+
+Navigator: Emmanuel Gonzales
+
 ### Links and Resources
 
 Information from the lecture
