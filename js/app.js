@@ -1,5 +1,5 @@
 'use strict';
-
+let tScore = 7;
 let score = 0;
 let userName = prompt('What is your name');
 alert(`Hello ${userName} Welcome to my Website! Let's Play a Game`);
@@ -97,4 +97,4 @@ for(let i = 0; i < 6; i ++){
 alert(`My Favorite Superheroes are ${heroes}. Try to See if You Can Guess Another One.`);
 
 
-alert(`Thank You ${userName} For Paying, Your score was ${score}. I Hope You Had Fun!`);
+alert(`Thank You ${userName} For Playing, Your score was ${score} out of ${tScore}. I Hope You Had Fun!`);
