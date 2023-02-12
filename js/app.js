@@ -7,11 +7,9 @@ alert(`Hello ${userName} Welcome to my Website! Let's Play a Game`);
 function question1(){
   let qOne = prompt('HTML stands for HyperText Markup Language (type yes/no)').toLowerCase();
   if (qOne === 'yes' || qOne === 'y'){
-    // console.log('Correct');
     alert('Correct');
     score ++;
   } else if (qOne === 'no' || qOne === 'n'){
-    // console.log('That is Incorrect');
     alert('That is Incorrect');
   }
 }
@@ -21,11 +19,9 @@ function question2(){
 
   let qTwo = prompt('CSS stands for Cascading Style Script').toLowerCase();
   if (qTwo === 'no' || qTwo === 'n'){
-    // console.log('Correct');
     alert('Correct');
     score ++;
   } else {
-    // console.log('That is Incorrect');
     alert('That is Incorrect');
   }
 }
@@ -34,11 +30,9 @@ question2();
 function question3(){
   let qThree = prompt('Are Java and JavaScript are the same?').toLowerCase();
   if (qThree === 'no' || qThree === 'n'){
-    // console.log('Correct');
     alert('Correct');
     score ++;
   } else {
-    // console.log('That is Incorrect');
     alert('That is Incorrect');
   }
 }
@@ -47,11 +41,9 @@ question3();
 function question4(){
   let qFour = prompt('My last name is Gonzales').toLowerCase();
   if (qFour === 'yes' || qFour === 'y'){
-    // console.log('Correct');
     alert('Correct');
     score ++;
   } else {
-    // console.log('That is Incorrect');
     alert('That is Incorrect');
   }
 }
@@ -64,7 +56,6 @@ function question5(){
     alert('Correct');
     score ++;
   } else {
-    // console.log('That is Incorrect');
     alert('That is Incorrect');
   }
 }
